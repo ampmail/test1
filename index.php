@@ -1,2 +1,2 @@
 <?php
-echo "Hello AMP";
+echo "Hello AMP 2!!!!";
