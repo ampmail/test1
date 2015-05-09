@@ -35,8 +35,10 @@
 </ul>
 
 <?php
+error_reporting(E_ALL);
+
 class foo {
-    var $bar = 'I am bar.';
+    private $bar = 'I am bar.';
 
     function getSome (){
         return $this->bar;
