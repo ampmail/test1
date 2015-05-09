@@ -37,11 +37,16 @@
 <?php
 class foo {
     var $bar = 'I am bar.';
+
+    function getSome (){
+        return $this->bar;
+    }
 }
 
 $foo = new foo();
-$bar = 'bar';
+$bar = $foo.getSome();
 $baz = array('foo', 'bar', 'baz', 'quux');
-echo "{$foo->$bar}<br/>";
-echo "{$foo->$baz[1]}\n";
+//echo "{$foo->$bar}<br/>";
+//echo "{$foo->$baz[1]}\n";
+echo "{$bar}";
 ?>
