@@ -42,6 +42,6 @@ class foo {
 $foo = new foo();
 $bar = 'bar';
 $baz = array('foo', 'bar', 'baz', 'quux');
-echo "{$foo->$bar}\n";
+echo "{$foo->$bar}<br/>";
 echo "{$foo->$baz[1]}\n";
 ?>
