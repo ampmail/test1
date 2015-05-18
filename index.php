@@ -50,5 +50,5 @@ $bar = $foo->getSome();
 $baz = array('foo', 'bar', 'baz', 'quux');
 //echo "{$foo->$bar}<br/>";
 //echo "{$foo->$baz[1]}\n";
-echo "{$bar}";
+//echo "{$bar}";
 ?>
